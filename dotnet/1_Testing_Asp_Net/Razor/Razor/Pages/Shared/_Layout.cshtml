@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"]</title>
+    
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+</head>
+<body>
+    <header>
+        <span class="logo">Изучаем ASP.NET Core</span>
+        <nav>
+            <a href="/Users">Main page</a>
+            <a href="/Contacts">Contact page</a>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+<footer>
+    All rules in secure - 2025
+</footer>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
