@@ -6,71 +6,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ca6ab2-d52d-4dc0-a6c5-f20b0648bbb7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC.sln.DotSettings.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/bin/Debug/net10.0/MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/bin/Debug/net10.0/MVC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/bin/Debug/net10.0/MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/bin/Debug/net10.0/MVC.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/bin/Debug/net10.0/MVC.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/bin/Debug/net10.0/MVC.staticwebassets.endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/bin/Debug/net10.0/MVC.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/bin/Debug/net10.0/MVC.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/MVC.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/21a4f9uelt-{0}-r4e9w2rdcm-r4e9w2rdcm.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/21a4f9uelt-{0}-r4e9w2rdcm-r4e9w2rdcm.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/287brpftpq-{0}-fsbi9cje9m-fsbi9cje9m.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/287brpftpq-{0}-fsbi9cje9m-fsbi9cje9m.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/41iiuq5zm2-{0}-nvvlpmu67g-nvvlpmu67g.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/41iiuq5zm2-{0}-nvvlpmu67g-nvvlpmu67g.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/482rmoa2j7-{0}-jd9uben2k1-jd9uben2k1.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/482rmoa2j7-{0}-jd9uben2k1-jd9uben2k1.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/6qm3etfj3k-{0}-ttgo8qnofa-ttgo8qnofa.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/6qm3etfj3k-{0}-ttgo8qnofa-ttgo8qnofa.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/7cuj28171i-{0}-87fc7y1x7t-87fc7y1x7t.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/7cuj28171i-{0}-87fc7y1x7t-87fc7y1x7t.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/7mtm9yfkyy-{0}-ee0r1s7dh0-ee0r1s7dh0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/7mtm9yfkyy-{0}-ee0r1s7dh0-ee0r1s7dh0.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/7vw4p5200c-{0}-kbrnm935zg-kbrnm935zg.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/7vw4p5200c-{0}-kbrnm935zg-kbrnm935zg.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/d4sz37f459-{0}-ft3s53vfgj-ft3s53vfgj.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/d4sz37f459-{0}-ft3s53vfgj-ft3s53vfgj.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/ecke8jx0dr-{0}-c2oey78nd0-c2oey78nd0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/ecke8jx0dr-{0}-c2oey78nd0-c2oey78nd0.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/f16w8jlltq-{0}-j5mq2jizvt-j5mq2jizvt.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/f16w8jlltq-{0}-j5mq2jizvt-j5mq2jizvt.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/ghohb48v8b-{0}-61n19gt1b8-61n19gt1b8.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/ghohb48v8b-{0}-61n19gt1b8-61n19gt1b8.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/gy51e6jou0-{0}-iovd86k7lj-iovd86k7lj.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/gy51e6jou0-{0}-iovd86k7lj-iovd86k7lj.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/k4s0axml6m-{0}-c2jlpeoesf-c2jlpeoesf.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/k4s0axml6m-{0}-c2jlpeoesf-c2jlpeoesf.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/kzyn8cxs62-{0}-pj5nd1wqec-pj5nd1wqec.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/kzyn8cxs62-{0}-pj5nd1wqec-pj5nd1wqec.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/lnfjmp9888-{0}-aexeepp0ev-aexeepp0ev.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/lnfjmp9888-{0}-aexeepp0ev-aexeepp0ev.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/lpxxw8rln8-{0}-hrwsygsryq-hrwsygsryq.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/lpxxw8rln8-{0}-hrwsygsryq-hrwsygsryq.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/m3c988m4jb-{0}-6pdc2jztkx-6pdc2jztkx.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/m3c988m4jb-{0}-6pdc2jztkx-6pdc2jztkx.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/oemc2qfing-{0}-cosvhxvwiu-cosvhxvwiu.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/oemc2qfing-{0}-cosvhxvwiu-cosvhxvwiu.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/pvyqtvr9lr-{0}-h1s4sie4z3-h1s4sie4z3.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/pvyqtvr9lr-{0}-h1s4sie4z3-h1s4sie4z3.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/sehmu7cxhd-{0}-v0zj4ognzu-v0zj4ognzu.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/sehmu7cxhd-{0}-v0zj4ognzu-v0zj4ognzu.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/uj0gr7i440-{0}-y7v9cxd14o-y7v9cxd14o.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/uj0gr7i440-{0}-y7v9cxd14o-y7v9cxd14o.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/wjiwfbbeqe-{0}-ausgxo2sd3-ausgxo2sd3.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/wjiwfbbeqe-{0}-ausgxo2sd3-ausgxo2sd3.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/yc136mrexx-{0}-0j3bgjxly4-0j3bgjxly4.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/yc136mrexx-{0}-0j3bgjxly4-0j3bgjxly4.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/yfpzdat7n4-{0}-fvhpjtyr6v-fvhpjtyr6v.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/compressed/yfpzdat7n4-{0}-fvhpjtyr6v-fvhpjtyr6v.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rbcswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rbcswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/ref/MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/ref/MVC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/refint/MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/refint/MVC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rjimswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rjimswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/staticwebassets.build.endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/staticwebassets.build.json.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/Debug/net10.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/MVC.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/MVC.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/MVC.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/MVC.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/MVC/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/MVC/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExampleRazor/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExampleRazor/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExampleRazor/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExampleRazor/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExampleRazor/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExampleRazor/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple/Simple/Controllers/UsersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Simple/Simple/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Razor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Razor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/bin/Debug/net10.0/Razor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/bin/Debug/net10.0/Razor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/bin/Debug/net10.0/Razor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/bin/Debug/net10.0/Razor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/bin/Debug/net10.0/Razor.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/bin/Debug/net10.0/Razor.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/bin/Debug/net10.0/Razor.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/bin/Debug/net10.0/Razor.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/Razor.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/24m9m83zmj-{0}-y7v9cxd14o-y7v9cxd14o.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/24m9m83zmj-{0}-y7v9cxd14o-y7v9cxd14o.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/5tn3vz82jl-{0}-iovd86k7lj-iovd86k7lj.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/5tn3vz82jl-{0}-iovd86k7lj-iovd86k7lj.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/6ijpvpj7x0-{0}-r4e9w2rdcm-r4e9w2rdcm.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/6ijpvpj7x0-{0}-r4e9w2rdcm-r4e9w2rdcm.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/8aq5lz3isg-{0}-j5mq2jizvt-j5mq2jizvt.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/8aq5lz3isg-{0}-j5mq2jizvt-j5mq2jizvt.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/8rnd6q9r0r-{0}-v0zj4ognzu-v0zj4ognzu.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/8rnd6q9r0r-{0}-v0zj4ognzu-v0zj4ognzu.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/9wwucujicq-{0}-6pdc2jztkx-6pdc2jztkx.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/9wwucujicq-{0}-6pdc2jztkx-6pdc2jztkx.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/bc3oy7ulyh-{0}-nvvlpmu67g-nvvlpmu67g.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/bc3oy7ulyh-{0}-nvvlpmu67g-nvvlpmu67g.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/cmu81bsn9r-{0}-fsbi9cje9m-fsbi9cje9m.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/cmu81bsn9r-{0}-fsbi9cje9m-fsbi9cje9m.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/dfvpok2bul-{0}-jd9uben2k1-jd9uben2k1.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/dfvpok2bul-{0}-jd9uben2k1-jd9uben2k1.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/dknnj56r8u-{0}-ausgxo2sd3-ausgxo2sd3.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/dknnj56r8u-{0}-ausgxo2sd3-ausgxo2sd3.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/f8h33hm8g7-{0}-h1s4sie4z3-h1s4sie4z3.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/f8h33hm8g7-{0}-h1s4sie4z3-h1s4sie4z3.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/fae64o4nje-{0}-87fc7y1x7t-87fc7y1x7t.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/fae64o4nje-{0}-87fc7y1x7t-87fc7y1x7t.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/fax7vq56ux-{0}-ee0r1s7dh0-ee0r1s7dh0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/fax7vq56ux-{0}-ee0r1s7dh0-ee0r1s7dh0.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/fr4qiw5n5m-{0}-c2jlpeoesf-c2jlpeoesf.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/fr4qiw5n5m-{0}-c2jlpeoesf-c2jlpeoesf.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/gt1g5fu05k-{0}-fvhpjtyr6v-fvhpjtyr6v.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/gt1g5fu05k-{0}-fvhpjtyr6v-fvhpjtyr6v.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/gt5vj6qaf3-{0}-ft3s53vfgj-ft3s53vfgj.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/gt5vj6qaf3-{0}-ft3s53vfgj-ft3s53vfgj.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/is5z4bhsks-{0}-61n19gt1b8-61n19gt1b8.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/is5z4bhsks-{0}-61n19gt1b8-61n19gt1b8.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/ju6fbchhv2-{0}-kbrnm935zg-kbrnm935zg.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/ju6fbchhv2-{0}-kbrnm935zg-kbrnm935zg.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/ljrilbp896-{0}-ttgo8qnofa-ttgo8qnofa.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/ljrilbp896-{0}-ttgo8qnofa-ttgo8qnofa.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/mfd4nbvrve-{0}-c2oey78nd0-c2oey78nd0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/mfd4nbvrve-{0}-c2oey78nd0-c2oey78nd0.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/monn221e93-{0}-pj5nd1wqec-pj5nd1wqec.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/monn221e93-{0}-pj5nd1wqec-pj5nd1wqec.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/nq10e947ib-{0}-hrwsygsryq-hrwsygsryq.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/nq10e947ib-{0}-hrwsygsryq-hrwsygsryq.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/ntiumyjh54-{0}-aexeepp0ev-aexeepp0ev.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/ntiumyjh54-{0}-aexeepp0ev-aexeepp0ev.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/qku3btgk1v-{0}-cosvhxvwiu-cosvhxvwiu.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/qku3btgk1v-{0}-cosvhxvwiu-cosvhxvwiu.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/uefjhrfywy-{0}-0j3bgjxly4-0j3bgjxly4.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/compressed/uefjhrfywy-{0}-0j3bgjxly4-0j3bgjxly4.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rbcswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rbcswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/ref/Razor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/ref/Razor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/refint/Razor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/refint/Razor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rjimswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rjimswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/staticwebassets.build.json.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Debug/net10.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Razor.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Razor.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/Razor.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/Razor.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Razor/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Razor/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +75,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="37tDFCfCRYnTuagfLBiFjUTJcra" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -90,6 +85,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.Razor: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -142,6 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1767713367733</updated>
       <workItem from="1767713368757" duration="246000" />
+      <workItem from="1767713791894" duration="57000" />
     </task>
     <servers />
   </component>

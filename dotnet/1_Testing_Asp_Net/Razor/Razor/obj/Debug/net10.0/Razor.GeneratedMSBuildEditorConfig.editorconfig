@@ -11,49 +11,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Razor
 build_property.RootNamespace = Razor
-build_property.ProjectDir = /Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/
+build_property.ProjectDir = D:\work\git\github\mini-projects-for-education\dotnet\1_Testing_Asp_Net\Razor\Razor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor
+build_property.MSBuildProjectDirectory = D:\work\git\github\mini-projects-for-education\dotnet\1_Testing_Asp_Net\Razor\Razor
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Contacts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdHMuY3NodG1s
+[D:/work/git/github/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[D:/work/git/github/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[D:/work/git/github/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[D:/work/git/github/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[D:/work/git/github/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMuY3NodG1s
+[D:/work/git/github/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[D:/work/git/github/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[D:/work/git/github/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-yqp9ib0fmu
+[D:/work/git/github/mini-projects-for-education/dotnet/1_Testing_Asp_Net/Razor/Razor/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k4x9mvvrh5
