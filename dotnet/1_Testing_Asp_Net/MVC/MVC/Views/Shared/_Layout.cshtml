@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - MVC First Test App</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+</head>
+<body>
+
+    <header>
+        <span class="logo">
+            LEarn ASP.Net Core MVC
+        </span>
+        
+        <nav>
+            <a asp-controller="user" asp-action="Index">Управление пользователями</a>
+            <a href="/Home/Privacy">Конфиденциальность</a>
+        </nav>
+    </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        Все права не защищены - 2026
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

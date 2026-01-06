@@ -1,0 +1,76 @@
+﻿@model List<MVC.Models.User>
+@{
+    ViewData["Title"] = "Управление пользователями";
+}
+
+@functions
+{
+    public async Task NotifyDataIsEmpty()
+    {
+        <h3>Данные пусты</h3>
+        <a asp-action="Index">Обновить страницу</a>
+    }
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post" asp-action="Save">
+    <div class="form-group">
+        <input type="hidden" name="Id" value="@(ViewBag.SelectedUser?.Id ?? 0)" />
+
+        <div class="form-group">
+            <label>Логин</label>
+            <input name="Login" value="@ViewBag.SelectedUser?.Login" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label>Пароль</label>
+            <input name="Password" value="@ViewBag.SelectedUser?.Password" class="form-control" type="password" />
+        </div>
+
+        <div class="form-group mt-2">
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <a asp-action="Reset" class="btn btn-secondary">Сбросить</a>
+        </div>
+    </div>
+</form>
+
+@if (Model == null || Model.Count == 0)
+{
+    await NotifyDataIsEmpty();
+    return;
+}
+
+<table class="table mt-4">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Login</th>
+        <th>Password</th>
+        <th>Действия</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in @Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Login</td>
+                <td>@user.Password</td>
+                
+                <td>
+                    <form method="POST" asp-action="Select">
+                        <input type="hidden" name="id" value="@user.Id"/>
+                        <button type="submit" class="btn btn-info btn-sm">Выбрать</button>
+                    </form>
+                    
+                    <form method="POST" asp-action="Delete" class="d-inline">
+                        <input type="hidden" name="id" value="@user.Id"/>
+                        <button type="submit" class="btn btn-danger btn-sm">Удалить</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
