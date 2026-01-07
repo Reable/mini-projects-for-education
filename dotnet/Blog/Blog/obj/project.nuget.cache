@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6QPLzwOwTL0=",
+  "success": true,
+  "projectFilePath": "D:\\work\\git\\github\\mini-projects-for-education\\dotnet\\Blog\\Blog\\Blog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\reabl\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\reabl\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\reabl\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
