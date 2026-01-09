@@ -35,3 +35,8 @@ D:\work\git\github\mini-projects-for-education\dotnet\Blog\Blog\obj\Debug\net10.
 D:\work\git\github\mini-projects-for-education\dotnet\Blog\Blog\obj\Debug\net10.0\ref\Blog.dll
 D:\work\git\github\mini-projects-for-education\dotnet\Blog\Blog\bin\Debug\net10.0\BCrypt.Net-Next.dll
 D:\work\git\github\mini-projects-for-education\dotnet\Blog\Blog\obj\Debug\net10.0\compressed\iucne97s2c-{0}-5ipweew5fc-5ipweew5fc.gz
+D:\work\git\github\mini-projects-for-education\dotnet\Blog\Blog\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\work\git\github\mini-projects-for-education\dotnet\Blog\Blog\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\work\git\github\mini-projects-for-education\dotnet\Blog\Blog\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\work\git\github\mini-projects-for-education\dotnet\Blog\Blog\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+D:\work\git\github\mini-projects-for-education\dotnet\Blog\Blog\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll

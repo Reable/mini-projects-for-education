@@ -4,8 +4,9 @@ using Blog.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddSingleton<IUserRepository, UserRepository>();
+builder.Services.AddSingleton<IUserService, UserService>();
+builder.Services.AddValidation();
 
 var app = builder.Build();
 

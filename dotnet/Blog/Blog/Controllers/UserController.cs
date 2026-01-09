@@ -1,4 +1,5 @@
 ﻿using Blog.DTO;
+using Blog.Exceptions;
 using Blog.Models;
 using Blog.Services;
 
@@ -16,7 +17,51 @@ public static class UserController
         }
         catch (Exception e)
         {
-            return Results.Problem(e.Message, "get users", 500);
+            return Results.Problem(e.Message, "", StatusCodes.Status500InternalServerError);
+        }
+    }
+
+    public static async Task<IResult> GetUser(IUserService userService, int id)
+    {
+        try
+        {
+            var user = await userService.GetUserByIdAsync(id);
+            if(user == null)
+                throw new ArgumentException($"User with id {id} not found");
+            
+            var dto = new UserDto(user.Id, user.Login);
+            return Results.Ok(dto);
+        }
+        catch (Exception e)
+        {
+            return Results.Problem(e.Message, "",  StatusCodes.Status400BadRequest);
+        }
+    }
+
+    public static async Task<IResult> CreateUser(IUserService userService, CreateUserRecord data)
+    {
+        try
+        {
+            var user = await userService.CreateUserAsync(data);
+            var dto = new UserDto(user.Id, user.Login);
+            return Results.Created($"/user/{user.Id}", dto);
+        }
+        catch (Exception e)
+        {
+            return Results.Problem(e.Message, "", StatusCodes.Status409Conflict);
+        }
+    }
+
+    public static async Task<IResult> AuthUser(IUserService userService, AuthRecord data)
+    {
+        try
+        {
+            var token = await userService.AuthUserAsync(data);
+            return Results.Ok(token);
+        }
+        catch (Exception e)
+        {
+            return Results.Problem(e.Message, "", StatusCodes.Status401Unauthorized);
         }
     }
 }
