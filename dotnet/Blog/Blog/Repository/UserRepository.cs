@@ -20,10 +20,7 @@ public class UserRepository : IUserRepository
         _users.Add(new User(){Id = 3,  Login = "admin3", Password = CryptoHelper.HashPassword("admin34567")});
     }
 
-    public Task<List<User>> GetAllAsync()
-    {
-        return Task.FromResult(_users);
-    }
+    public Task<List<User>> GetAllAsync() => Task.FromResult(_users);
 
     public Task<User?> GetByIdAsync(int id)
     {

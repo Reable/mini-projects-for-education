@@ -1,5 +1,4 @@
-﻿
-using Blog.Models;
+﻿using Blog.Models;
 
 namespace Blog.Repository;
 
