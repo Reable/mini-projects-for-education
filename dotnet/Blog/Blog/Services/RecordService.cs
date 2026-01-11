@@ -1,32 +1,62 @@
-﻿using Blog.Models;
+﻿using Blog.DTO;
+using Blog.Exceptions;
+using Blog.Helpers;
+using Blog.Models;
 using Blog.Repository;
 
 namespace Blog.Services;
 
 public class RecordService(IUserService userService, IRecordRepository recordRepository) : IRecordService
 {
-    public Task<List<Record>> GetAllRecordsAsync()
+    public async Task<List<Record>> GetAllRecordsAsync() => await recordRepository.GetAllAsync();
+
+    public async Task<List<Record>> GetAllUserRecordsAsync(int userId) => await recordRepository.GetAllByUserIdAsync(userId);
+
+    public async Task<Record?> GetRecordByIdAsync(int id) => await recordRepository.GetByIdAsync(id);
+
+    public async Task<Record> AddRecordAsync(CreateRecordDto dto)
     {
-        throw new NotImplementedException();
+        var findUser = await userService.GetUserByIdAsync(dto.UserId);
+        
+        if (findUser == null)
+            throw new UsersNotExistsExceptions("User not found");
+        
+        var record = RecordMapper.ToModel(dto);
+        
+        return await recordRepository.AddAsync(record);
     }
 
-    public Task<Record?> GetRecordByIdAsync(int id)
+    public async Task<Record> UpdateRecordAsync(UpdateRecordDto dto)
     {
-        throw new NotImplementedException();
+        var findUser = await userService.GetUserByIdAsync(dto.UserId);
+        
+        if (findUser == null)
+            throw new UsersNotExistsExceptions("User not found");
+        
+        var findRecord = await recordRepository.GetByIdAsync(dto.RecordId);
+        if (findRecord == null)
+            throw new Exception("Record not found");
+
+        if (findRecord.UserId != dto.UserId)
+            throw new Exception("Access denied");
+        
+        return await recordRepository.UpdateAsync(findRecord);
     }
 
-    public Task<Record> AddRecordAsync(Record record)
+    public async Task<bool> DeleteRecordAsync(DeleteRecordDto dto)
     {
-        throw new NotImplementedException();
-    }
+        var findUser = await userService.GetUserByIdAsync(dto.UserId);
+        
+        if (findUser == null)
+            throw new UsersNotExistsExceptions("User not found");
+        
+        var findRecord = await recordRepository.GetByIdAsync(dto.RecordId);
+        if (findRecord == null)
+            throw new Exception("Record not found");
 
-    public Task<Record> UpdateRecordAsync(Record record)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<bool> DeleteRecordAsync(int id)
-    {
-        throw new NotImplementedException();
+        if (findRecord.UserId != dto.UserId)
+            throw new Exception("Access denied");
+        
+        return await recordRepository.DeleteAsync(dto.RecordId);
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace Blog.Routes;
+﻿using Blog.Controllers;
+
+namespace Blog.Routes;
 
 public static class IndexRoutes
 {
@@ -6,6 +8,9 @@ public static class IndexRoutes
     {
         var route = routes.MapGroup("/");
         
-        route.MapGet("", () => "Hello World!");
+        route.MapGet("", RecordController.GetRecords);
+        route.MapGet("{id:int}", RecordController.GetRecordById);
+        
+        route.MapGet("records/{userId:int}", RecordController.GetUserRecords);
     }
 }

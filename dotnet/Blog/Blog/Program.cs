@@ -6,6 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton<IUserRepository, UserRepository>();
 builder.Services.AddSingleton<IUserService, UserService>();
+
+builder.Services.AddSingleton<IRecordRepository, RecordRepository>();
+builder.Services.AddSingleton<IRecordService, RecordService>();
+
 builder.Services.AddValidation();
 
 var app = builder.Build();

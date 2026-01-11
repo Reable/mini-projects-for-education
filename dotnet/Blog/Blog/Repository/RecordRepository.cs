@@ -5,15 +5,13 @@ namespace Blog.Repository;
 
 public class RecordRepository : IRecordRepository
 {
-    private readonly IUserRepository _userRepository;
     
     private readonly List<Record> _records = [];
     private int _lastId = 0;
 
-    public RecordRepository(IUserRepository userRepository)
+    public RecordRepository()
     {
         AutofillRecords();
-        _userRepository = userRepository;
     }
 
     private void AutofillRecords()
@@ -27,6 +25,12 @@ public class RecordRepository : IRecordRepository
     }
     
     public Task<List<Record>> GetAllAsync() => Task.FromResult(_records);
+    
+    public Task<List<Record>> GetAllByUserIdAsync(int userId)
+    {
+        var records = _records.FindAll(r => r.UserId == userId);
+        return Task.FromResult(records);
+    }
 
     public Task<Record?> GetByIdAsync(int id)
     {

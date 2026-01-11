@@ -5,6 +5,8 @@ namespace Blog.Repository;
 public interface IRecordRepository
 {
     Task<List<Record>> GetAllAsync();
+
+    Task<List<Record>> GetAllByUserIdAsync(int userId);
     
     Task<Record?> GetByIdAsync(int id);
     

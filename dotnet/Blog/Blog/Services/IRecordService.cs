@@ -1,4 +1,5 @@
-﻿using Blog.Models;
+﻿using Blog.DTO;
+using Blog.Models;
 
 namespace Blog.Services;
 
@@ -6,11 +7,13 @@ public interface IRecordService
 {
     Task<List<Record>> GetAllRecordsAsync();
     
+    Task<List<Record>> GetAllUserRecordsAsync(int userId);
+    
     Task<Record?> GetRecordByIdAsync(int id);
     
-    Task<Record> AddRecordAsync(Record record);
+    Task<Record> AddRecordAsync(CreateRecordDto dto);
     
-    Task<Record> UpdateRecordAsync(Record record);
+    Task<Record> UpdateRecordAsync(UpdateRecordDto dto);
     
-    Task<bool> DeleteRecordAsync(int id);
+    Task<bool> DeleteRecordAsync(DeleteRecordDto dto);
 }
