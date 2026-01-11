@@ -5,7 +5,7 @@ namespace Blog.Helpers;
 
 public static class UserMapper
 {
-    public static User ToModel(CreateUserRecord dto)
+    public static User ToModel(RegisterUserRequest dto)
     {
         return new User()
         {

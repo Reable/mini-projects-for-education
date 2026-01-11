@@ -15,7 +15,7 @@ public class UserService(IUserRepository userRepository) : IUserService
    
     public async Task<User?> GetUserByLoginAsync(string login) => await userRepository.GetByLoginAsync(login);
 
-    public async Task<User> CreateUserAsync(CreateUserRecord userDto)
+    public async Task<User> CreateUserAsync(RegisterUserRequest userDto)
     {
         var find = await userRepository.GetByLoginAsync(userDto.Login);
 
@@ -29,7 +29,7 @@ public class UserService(IUserRepository userRepository) : IUserService
         return user;
     }
 
-    public async Task<string> AuthUserAsync(AuthRecord data)
+    public async Task<string> AuthUserAsync(LoginUserRequest data)
     {
         var user = await userRepository.GetByLoginAsync(data.Login);
         if (user == null)

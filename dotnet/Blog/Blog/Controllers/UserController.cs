@@ -38,7 +38,7 @@ public static class UserController
         }
     }
 
-    public static async Task<IResult> CreateUser(IUserService userService, CreateUserRecord data)
+    public static async Task<IResult> RegisterUser(IUserService userService, RegisterUserRequest data)
     {
         try
         {
@@ -52,7 +52,7 @@ public static class UserController
         }
     }
 
-    public static async Task<IResult> AuthUser(IUserService userService, AuthRecord data)
+    public static async Task<IResult> AuthUser(IUserService userService, LoginUserRequest data)
     {
         try
         {

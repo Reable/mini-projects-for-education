@@ -14,7 +14,7 @@ public class RecordService(IUserService userService, IRecordRepository recordRep
 
     public async Task<Record?> GetRecordByIdAsync(int id) => await recordRepository.GetByIdAsync(id);
 
-    public async Task<Record> AddRecordAsync(CreateRecordDto dto)
+    public async Task<Record> AddRecordAsync(CreateRecordRequest dto)
     {
         var findUser = await userService.GetUserByIdAsync(dto.UserId);
         
@@ -26,7 +26,7 @@ public class RecordService(IUserService userService, IRecordRepository recordRep
         return await recordRepository.AddAsync(record);
     }
 
-    public async Task<Record> UpdateRecordAsync(UpdateRecordDto dto)
+    public async Task<Record> UpdateRecordAsync(UpdateRecordRequest dto)
     {
         var findUser = await userService.GetUserByIdAsync(dto.UserId);
         
@@ -43,7 +43,7 @@ public class RecordService(IUserService userService, IRecordRepository recordRep
         return await recordRepository.UpdateAsync(findRecord);
     }
 
-    public async Task<bool> DeleteRecordAsync(DeleteRecordDto dto)
+    public async Task<bool> DeleteRecordAsync(DeleteRecordRequest dto)
     {
         var findUser = await userService.GetUserByIdAsync(dto.UserId);
         

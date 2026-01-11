@@ -2,15 +2,15 @@
 
 namespace Blog.Routes;
 
-public static class IndexRoutes
+public static class RecordsRoutes
 {
     public static void MapIndexRoutes(this IEndpointRouteBuilder routes)
     {
-        var route = routes.MapGroup("/");
+        var route = routes.MapGroup("/records");
         
         route.MapGet("", RecordController.GetRecords);
         route.MapGet("{id:int}", RecordController.GetRecordById);
         
-        route.MapGet("records/{userId:int}", RecordController.GetUserRecords);
+        route.MapGet("user/{userId:int}", RecordController.GetUserRecords);
     }
 }

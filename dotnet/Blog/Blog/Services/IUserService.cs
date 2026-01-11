@@ -11,8 +11,8 @@ public interface IUserService
     
     Task<User?> GetUserByLoginAsync(string login);
     
-    Task<User> CreateUserAsync(CreateUserRecord user);
+    Task<User> CreateUserAsync(RegisterUserRequest user);
     
-    Task<string> AuthUserAsync(AuthRecord user);
+    Task<string> AuthUserAsync(LoginUserRequest user);
     
 }

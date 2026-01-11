@@ -11,9 +11,9 @@ public interface IRecordService
     
     Task<Record?> GetRecordByIdAsync(int id);
     
-    Task<Record> AddRecordAsync(CreateRecordDto dto);
+    Task<Record> AddRecordAsync(CreateRecordRequest dto);
     
-    Task<Record> UpdateRecordAsync(UpdateRecordDto dto);
+    Task<Record> UpdateRecordAsync(UpdateRecordRequest dto);
     
-    Task<bool> DeleteRecordAsync(DeleteRecordDto dto);
+    Task<bool> DeleteRecordAsync(DeleteRecordRequest dto);
 }

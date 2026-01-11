@@ -5,7 +5,7 @@ namespace Blog.Helpers;
 
 public static class RecordMapper
 {
-    public static Record ToModel(CreateRecordDto dto)
+    public static Record ToModel(CreateRecordRequest dto)
     {
         return new Record()
         {

@@ -15,9 +15,9 @@ public class UserRepository : IUserRepository
 
     private void AutofillUsers()
     {
-        _users.Add(new User(){Id = 1,  Login = "admin1", Password = CryptoHelper.HashPassword("admin12345")});
-        _users.Add(new User(){Id = 2,  Login = "admin2", Password = CryptoHelper.HashPassword("admin23456")});
-        _users.Add(new User(){Id = 3,  Login = "admin3", Password = CryptoHelper.HashPassword("admin34567")});
+        _users.Add(new User(){Id = GetCurrentId(), Login = "admin1", Password = CryptoHelper.HashPassword("admin12345")});
+        _users.Add(new User(){Id = GetCurrentId(), Login = "admin2", Password = CryptoHelper.HashPassword("admin23456")});
+        _users.Add(new User(){Id = GetCurrentId(), Login = "admin3", Password = CryptoHelper.HashPassword("admin34567")});
     }
 
     public Task<List<User>> GetAllAsync() => Task.FromResult(_users);

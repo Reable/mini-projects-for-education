@@ -11,7 +11,7 @@ public static class UserRoutes
         route.MapGet("", UserController.GetUsers);
         route.MapGet("{id:int}", UserController.GetUser);
         
-        route.MapPost("/register", UserController.CreateUser);
+        route.MapPost("/register", UserController.RegisterUser);
         route.MapPost("/login", UserController.AuthUser);
     }
 
