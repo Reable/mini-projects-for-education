@@ -5,7 +5,7 @@ using Blog.Services;
 
 namespace Blog.Controllers;
 
-public static class RecordController
+public class RecordController
 {
     public static async Task<IResult> GetRecords(IRecordService recordService)
     {
@@ -40,7 +40,7 @@ public static class RecordController
         {
             var user = await userService.GetUserByIdAsync(userId);
             if(user == null)
-                throw new UsersNotExistsExceptions("User not found");
+                throw new UsersNotExistsExceptions();
             
             var records = await recordService.GetAllUserRecordsAsync(userId);
             return Results.Ok(records);
@@ -57,7 +57,7 @@ public static class RecordController
         {
             var user = await userService.GetUserByIdAsync(request.UserId);
             if(user == null)
-                throw new UsersNotExistsExceptions("User not found");
+                throw new UsersNotExistsExceptions();
 
             var record = await recordService.AddRecordAsync(request);
             return Results.Ok(record);
@@ -75,16 +75,9 @@ public static class RecordController
         {
             var user = await userService.GetUserByIdAsync(request.UserId);
             if(user == null)
-                throw new UsersNotExistsExceptions("User not found");
+                throw new UsersNotExistsExceptions();
 
-            var record = await recordService.GetRecordByIdAsync(request.RecordId);
-            if(record == null)
-                throw new Exception("Record not found");
-            if(record.UserId != request.UserId)
-                throw new Exception("Access denied");
-            
-            await recordService.UpdateRecordAsync(request);
-            
+            var record = await recordService.UpdateRecordAsync(request);
             return Results.Ok(record);
 
         }

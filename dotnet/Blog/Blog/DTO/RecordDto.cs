@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Blog.DTO;
 
-public record RecordDto(int Id, int UserId, string Title, string Contend);
+public record RecordDto(int Id, int UserId, string Title, string Content);
 
 public record CreateRecordRequest(
     [Required] int UserId,

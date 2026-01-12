@@ -6,8 +6,10 @@ public abstract class Routes
 {
     public static void Configure(WebApplication app)
     {
-        app.MapIndexRoutes();
+        app.MapPagesRoutes();
+        
         app.MapUserRoutes();
+        app.MapRecordsRoutes();
         
         app.MapFallback(() => Results.NotFound("Страница не найдена"));
     }

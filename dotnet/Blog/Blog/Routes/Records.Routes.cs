@@ -4,7 +4,7 @@ namespace Blog.Routes;
 
 public static class RecordsRoutes
 {
-    public static void MapIndexRoutes(this IEndpointRouteBuilder routes)
+    public static void MapRecordsRoutes(this IEndpointRouteBuilder routes)
     {
         var route = routes.MapGroup("/records");
         

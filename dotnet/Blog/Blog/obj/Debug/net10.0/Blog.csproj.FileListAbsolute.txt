@@ -82,3 +82,4 @@ D:/work/git/github/mini-projects-for-education/dotnet/Blog/Blog/bin/Debug/net10.
 /Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/Blog/Blog/obj/Debug/net10.0/Blog.pdb
 /Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/Blog/Blog/obj/Debug/net10.0/Blog.genruntimeconfig.cache
 /Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/Blog/Blog/obj/Debug/net10.0/ref/Blog.dll
+/Users/razmyslov/work/git/GitHub/mini-projects-for-education/dotnet/Blog/Blog/obj/Debug/net10.0/compressed/9h3sw2p8yv-{0}-rgt8467s1w-rgt8467s1w.gz
