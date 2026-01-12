@@ -39,8 +39,9 @@ public class RecordService(IUserService userService, IRecordRepository recordRep
 
         if (findRecord.UserId != dto.UserId)
             throw new Exception("Access denied");
-        
-        return await recordRepository.UpdateAsync(findRecord);
+
+        var record = RecordMapper.ToModel(dto);
+        return await recordRepository.UpdateAsync(record);
     }
 
     public async Task<bool> DeleteRecordAsync(DeleteRecordRequest dto)

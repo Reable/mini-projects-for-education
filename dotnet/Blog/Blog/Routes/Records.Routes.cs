@@ -12,5 +12,9 @@ public static class RecordsRoutes
         route.MapGet("{id:int}", RecordController.GetRecordById);
         
         route.MapGet("user/{userId:int}", RecordController.GetUserRecords);
+        
+        route.MapPost("/create", RecordController.CreateRecord);
+        route.MapPut("/update", RecordController.UpdateRecord);
+        route.MapDelete("/delete", RecordController.DeleteRecord);
     }
 }

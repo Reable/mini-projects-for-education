@@ -14,4 +14,15 @@ public static class RecordMapper
             Content = dto.Content
         };
     }
+    
+    public static Record ToModel(UpdateRecordRequest dto)
+    {
+        return new Record()
+        {
+            Id = dto.RecordId,
+            UserId = dto.UserId,
+            Title = dto.Title,
+            Content = dto.Content
+        };
+    }
 }
