@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация и регистрация</title>
+    <link rel="stylesheet" href="./css/auth.css">
+</head>
+<body>
+<div class="auth-container">
+    <div class="auth-tabs">
+        <button class="tab-button active" data-tab="login">Вход</button>
+        <button class="tab-button" data-tab="register">Регистрация</button>
+    </div>
+
+    <form id="login-form" class="auth-form active">
+        <h2>Вход в аккаунт</h2>
+        <div class="form-group">
+            <label for="login-email">Логин</label>
+            <input type="text" id="login-email" required>
+        </div>
+        <div class="form-group">
+            <label for="login-password">Пароль</label>
+            <input type="password" id="login-password" required>
+        </div>
+        <button type="submit">Войти</button>
+        <p class="error-message" id="login-error"></p>
+    </form>
+
+    <form id="register-form" class="auth-form">
+        <h2>Регистрация</h2>
+        <div class="form-group">
+            <label for="register-login">Логин</label>
+            <input type="text" id="register-login" required>
+        </div>
+        <div class="form-group">
+            <label for="register-password">Пароль</label>
+            <input type="password" id="register-password" required minlength="6">
+        </div>
+        <div class="form-group">
+            <label for="register-confirm">Подтвердите пароль</label>
+            <input type="password" id="register-confirm" required>
+        </div>
+        <button type="submit">Зарегистрироваться</button>
+        <p class="error-message" id="register-error"></p>
+    </form>
+</div>
+
+<script src="./scripts/auth.js"></script>
+</body>
+</html>

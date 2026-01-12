@@ -6,10 +6,24 @@ public static class PagesRoutes
     {
         var route = routes.MapGroup("/");
 
-        route.MapGet("/", async context => RenderPage(context, "index"));
+        route.MapGet("/", async context =>
+        {
+            await RenderPage(context, "index");
+        });
+        
+        route.MapGet("/auth", async context =>
+        {
+            await RenderPage(context, "auth");
+        });
+        
+        route.MapGet("/dashboard", async context =>
+        {
+            await RenderPage(context, "dashboard");
+        });
+        
     }
 
-    private static async void RenderPage(HttpContext context, string file)
+    private static async Task RenderPage(HttpContext context, string file)
     {
         context.Response.ContentType = "text/html";
         await context.Response.SendFileAsync($"./Views/{file}.html");

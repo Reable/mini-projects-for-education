@@ -44,7 +44,7 @@ public static class UserController
         {
             var user = await userService.CreateUserAsync(data);
             var dto = new UserDto(user.Id, user.Login);
-            return Results.Created($"/user/{user.Id}", dto);
+            return Results.Created();
         }
         catch (Exception e)
         {

@@ -15,7 +15,7 @@ public class UserRepository : IUserRepository
 
     private void AutofillUsers()
     {
-        _users.Add(new User(){Id = GetCurrentId(), Login = "admin1", Password = CryptoHelper.HashPassword("admin12345")});
+        _users.Add(new User(){Id = GetCurrentId(), Login = "admin1", Password = CryptoHelper.HashPassword("1122334455")});
         _users.Add(new User(){Id = GetCurrentId(), Login = "admin2", Password = CryptoHelper.HashPassword("admin23456")});
         _users.Add(new User(){Id = GetCurrentId(), Login = "admin3", Password = CryptoHelper.HashPassword("admin34567")});
     }
