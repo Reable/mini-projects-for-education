@@ -42,6 +42,10 @@ public class UserService(IUserRepository userRepository) : IUserService
         return await JwtHelper.GenerateToken(user, TimeSpan.FromHours(12));
     }
 
-    
+    public static async Task<int?> AuthorizationUserAsync(string token)
+    {
+        var userId = await JwtHelper.GetUserIdFromToken(token);
+        return userId;
+    }
     
 }

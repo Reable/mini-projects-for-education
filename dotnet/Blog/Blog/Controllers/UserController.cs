@@ -64,4 +64,17 @@ public static class UserController
             return Results.Problem(e.Message, "", StatusCodes.Status401Unauthorized);
         }
     }
+
+    public static async Task<IResult> AuthorizationUser(IUserService userService)
+    {
+        try
+        {
+            var token = await userService.AuthorizationUser(data);
+            return Results.Ok(token);
+        }
+        catch (Exception e)
+        {
+            return Results.Problem(e.Message, "", StatusCodes.Status409Conflict);
+        }
+    }
 }
