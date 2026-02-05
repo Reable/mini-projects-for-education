@@ -19,5 +19,5 @@ public record UpdateRecordRequest(
 
 public record DeleteRecordRequest(
     [Required] int RecordId,
-    [Required] int UserId
+    [Required] int? UserId
 );

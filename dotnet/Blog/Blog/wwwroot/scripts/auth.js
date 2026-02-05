@@ -33,7 +33,11 @@
             });
 
             if (response.ok) {
-                localStorage.setItem("token", await response.json());
+                const data = await response.json();
+
+                localStorage.setItem("id", data['id']);
+                localStorage.setItem("token", data['token']);
+
                 alert('Вход выполнен успешно!');
                 window.location.href = '/dashboard';
                 return;

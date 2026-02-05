@@ -1,7 +1,10 @@
 ﻿document.addEventListener('DOMContentLoaded', async () => {
     const recordsList = document.getElementById('records-list');
     const newRecordForm = document.getElementById('new-record-form');
-    const userId = parseInt(document.getElementById('user-id').value);
+
+    
+    const userId = localStorage.getItem('id');
+    document.getElementById('user-id').value = userId;
 
     async function init() {
         if(localStorage.getItem('token')) {
@@ -15,7 +18,14 @@
 
     async function loadRecords() {
         try {
-            const response = await fetch('/records/user/1');
+            
+            const response = await fetch('/records/user/'+userId,{
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer ' + localStorage.getItem('token')
+                }
+            });
             if (!response.ok) throw new Error('Ошибка загрузки записей');
 
             const data = await response.json();
@@ -50,7 +60,7 @@
             `;
 
             item.querySelector('.btn-edit').addEventListener('click', () => openEditForm(record));
-            // item.querySelector('.btn-delete').addEventListener('click', () => deleteRecord(record.id));
+            item.querySelector('.btn-delete').addEventListener('click', () => deleteRecord(record.id));
 
             recordsList.appendChild(item);
         });
@@ -66,7 +76,10 @@
         try {
             const response = await fetch('/records/create', {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${localStorage.getItem('token')}`,
+                },
                 body: JSON.stringify({ userId, title, content })
             });
 
@@ -119,7 +132,10 @@
         try {
             const response = await fetch('/records/update', {
                 method: 'PUT',
-                headers: { 'Content-Type': 'application/json' },
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer ' + localStorage.getItem('token')
+                },
                 body: JSON.stringify({ recordId, userId, title, content })
             });
 
@@ -143,25 +159,29 @@
     }
 
     // Удаление записи
-    // async function deleteRecord(recordId) {
-    //     if (!confirm('Вы уверены, что хотите удалить эту запись?')) return;
-    //
-    //     try {
-    //         const response = await fetch(`/delete/${recordId}`, {
-    //             method: 'DELETE'
-    //         });
-    //
-    //         if (!response.ok) {
-    //             const error = await response.json();
-    //             alert('Ошибка: ' + (error.message || 'Не удалось удалить запись'));
-    //             return;
-    //         }
-    //
-    //         await loadRecords(); // Перезагружаем список
-    //     } catch (error) {
-    //         alert('Ошибка сети: ' + error.message);
-    //     }
-    // }
+     async function deleteRecord(recordId) {
+         if (!confirm('Вы уверены, что хотите удалить эту запись?')) return;
+    
+         try {
+             const response = await fetch(`/records/delete/${recordId}`, {
+                 method: 'DELETE',
+                 headers: {
+                     'Content-Type': 'application/json',
+                     'Authorization': 'Bearer ' + localStorage.getItem('token')
+                 }
+             });
+    
+             if (!response.ok) {
+                 const error = await response.json();
+                 alert('Ошибка: ' + (error.message || 'Не удалось удалить запись'));
+                 return;
+             }
+    
+             await loadRecords(); // Перезагружаем список
+         } catch (error) {
+             alert('Ошибка сети: ' + error.message);
+         }
+     }
 
     await init();
 });

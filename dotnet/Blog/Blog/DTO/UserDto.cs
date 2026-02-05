@@ -14,3 +14,5 @@ public record LoginUserRequest(
     [Required] string Login,
     [Required, MinLength(10, ErrorMessage = "Минимум 10 символов")] string Password
 );
+
+public record AuthUserDto(int Id, string? Token);

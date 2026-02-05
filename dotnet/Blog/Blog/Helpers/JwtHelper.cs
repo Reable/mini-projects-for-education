@@ -21,9 +21,10 @@ public class JwtHelper
 
         var claims = new[]
         {
+            new Claim("userId", user.Id.ToString()),
+            new Claim(ClaimTypes.Name, user.Login),
             new Claim(JwtRegisteredClaimNames.Sub, user.Login),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 
         var token = new JwtSecurityToken(
@@ -82,9 +83,12 @@ public class JwtHelper
         if (principal == null)
             return null;
 
-        var userIdClaim = principal.FindFirst(ClaimTypes.NameIdentifier);
-        var data = userIdClaim != null ? int.Parse(userIdClaim.Value) : (int?)null;
         
-        return Task.FromResult(data);
+        var claimValue = principal.FindFirst("userId")?.Value;
+
+        if (!int.TryParse(claimValue, out var userId))
+            return Task.FromResult<int?>(null);
+
+        return Task.FromResult<int?>(userId);
     }
 }

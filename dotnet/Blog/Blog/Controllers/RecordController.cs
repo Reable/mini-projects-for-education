@@ -87,8 +87,20 @@ public class RecordController
         }
     }
     
-    public static async Task<IResult> DeleteRecord(IRecordService recordService, IUserService userService)
+    public static async Task<IResult> DeleteRecord(IRecordService recordService, IUserService userService, int recordId,  HttpContext httpContext)
     {
-        return Results.BadRequest();
+        try
+        {
+            var userId = (int?)(httpContext.Items["UserId"]);
+            var record = await recordService.DeleteRecordAsync(
+                new DeleteRecordRequest(recordId, userId)
+            );          
+            
+            return Results.Ok(record);
+        }
+        catch (Exception e)
+        {
+            return Results.Problem(e.Message, "", StatusCodes.Status400BadRequest);
+        }
     }
 }

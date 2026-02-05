@@ -14,8 +14,6 @@ public static class UserRoutes
         route.MapPost("/register", UserController.RegisterUser);
         route.MapPost("/login", UserController.AuthUser);
         
-        route.MapPost("/authorization", UserController.AuthorizationUser);
-        
     }
 
 }

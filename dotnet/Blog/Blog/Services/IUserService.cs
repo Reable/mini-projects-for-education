@@ -13,6 +13,7 @@ public interface IUserService
     
     Task<User> CreateUserAsync(RegisterUserRequest user);
     
-    Task<string> AuthUserAsync(LoginUserRequest user);
+    Task<AuthUserDto> AuthUserAsync(LoginUserRequest user);
     
+    Task<int?> AuthorizationUserAsync(string token); 
 }

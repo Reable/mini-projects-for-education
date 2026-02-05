@@ -1,4 +1,5 @@
 ﻿using Blog.Controllers;
+using Blog.Endpoints;
 
 namespace Blog.Routes;
 
@@ -13,8 +14,11 @@ public static class RecordsRoutes
         
         route.MapGet("user/{userId:int}", RecordController.GetUserRecords);
         
-        route.MapPost("/create", RecordController.CreateRecord);
-        route.MapPut("/update", RecordController.UpdateRecord);
-        route.MapDelete("/delete", RecordController.DeleteRecord);
+        var securedRoute = route.MapGroup("")
+            .AddEndpointFilter<AuthFilter>();
+
+        securedRoute.MapPost("create", RecordController.CreateRecord);
+        securedRoute.MapPut("update", RecordController.UpdateRecord);
+        securedRoute.MapDelete("delete/{recordId:int}", RecordController.DeleteRecord);
     }
 }

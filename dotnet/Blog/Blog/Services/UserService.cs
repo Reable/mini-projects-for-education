@@ -29,7 +29,7 @@ public class UserService(IUserRepository userRepository) : IUserService
         return user;
     }
 
-    public async Task<string> AuthUserAsync(LoginUserRequest data)
+    public async Task<AuthUserDto> AuthUserAsync(LoginUserRequest data)
     {
         var user = await userRepository.GetByLoginAsync(data.Login);
         if (user == null)
@@ -38,11 +38,17 @@ public class UserService(IUserRepository userRepository) : IUserService
         var verify = CryptoHelper.VerifyPassword(data.Password, user.Password);
         if (!verify)
             throw new UserVerifyExceptions();
+
+        var token = await JwtHelper.GenerateToken(user, TimeSpan.FromHours(12));
         
-        return await JwtHelper.GenerateToken(user, TimeSpan.FromHours(12));
+        return new AuthUserDto(
+            user.Id,
+            token
+        );
+            
     }
 
-    public static async Task<int?> AuthorizationUserAsync(string token)
+    public async Task<int?> AuthorizationUserAsync(string token)
     {
         var userId = await JwtHelper.GetUserIdFromToken(token);
         return userId;
